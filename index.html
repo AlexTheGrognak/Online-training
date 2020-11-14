@@ -18,16 +18,18 @@
         <div class="icons">
             <img class="icon" src="img/icons/instagram.svg" alt="Instagram">
             <img class="icon" src="img/icons/facebook.svg" alt="Facebook">
-           </div>
+        </div>
     </header>
      <div class="wrapper">
          <main class="training">
-            <h1 class="training-title">онлайн тренировки<br>любой сложности</h1>
             <div class="training-details">
-                <p class="workout">>15</p>
-                <p class="workout">тренировок</p>
-                <p class="workout2">в области спортивной физиологии и нутрициологии</p>
-                <input clas="more-details" type="button" value="Узнать подробнее">
+                <h1 class="training-title">онлайн тренировки<br>любой сложности</h1>
+                <div class="training-info">
+                    <span class="workout"><p>> 15</p><p>тренировок</p></span>
+                    <p class="workout2">в области спортивной физиологии и нутрициологии</p>
+                    <input class="more-details" type="button" value="Узнать подробнее">
+                </div>
+                <a class="arrow" onclick="scrollToEvent()"><img src="img/icons/arrow.svg" alt="arrow"></a>
             </div>
             <div class="container">
                 <div class="training-image">
@@ -35,6 +37,30 @@
                 </div>
             </div>
          </main>
+         <div id="event">
+             <a name="event"></a>
+             <h2 class="event-title">Ближайшие события</h2>
+             <div class="webinar">
+                 <div class="webinar-caption">
+                    <img src="img/maraphon.png" alt="maraphon">
+                    <input class="share" type="button" value="участвовать">
+                </div>
+                 <div class="webinar-caption">
+                     <img src="img/trainer.png" alt="trainer">
+                     <input class="share" type="button" value="участвовать">
+                </div>
+                 <div class="webinar-caption">
+                    <img src="img/yoga.png" alt="yoga">
+                    <input class="share" type="button" value="участвовать">
+                </div>
+             </div>
+         </div>
      </div>
+    <script>
+        function scrollToEvent() {
+            const el = document.getElementById('event');
+            el.scrollIntoView({behavior: "smooth"});
+        };
+    </script>
 </body>
 </html>
