@@ -63,6 +63,9 @@ body {
    transform: scale(1.114) translate(-2px, -2px);
 }
  .wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     max-width: 1325px;
     margin: 0 0 0 388px;
  }
@@ -75,7 +78,7 @@ body {
  .container {
     width: 996px;
     height: 852px;
-    margin-left: 25%;
+    margin-left: 29%;
  }
  .training-image {
     width: 100%;
@@ -164,7 +167,7 @@ body {
 #event {
    width: 1143px;
    height: 690px;
-   margin-top: 161px;
+   margin-top: 179px;
 }
 .event-title {
    font-weight: 700;
@@ -218,7 +221,7 @@ body {
 .training-schedule {
    max-width: 1143px;
    height: 851px;
-   margin-top: 183px;
+   margin-top: 166px;
 }
 .shedule-date {
    display: flex;
@@ -536,6 +539,7 @@ body {
    cursor: pointer;
 }
 .company-advantage {
+   height: 130px;
    margin-top: 67px;
    display: grid;
    grid-template-columns: 231px 284px 221px 204px;
@@ -553,4 +557,64 @@ body {
    line-height: 150%;
    color: #2B3541;
    opacity: 0.6;
+}
+.footer {
+   height: 150px;
+   flex: 0 0 auto;
+   margin-top: 172px;
+   max-width: 1920px;
+   background: #F3F3F3;
+}
+.footer-menu {
+   max-width: 1142px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 54px;
+}
+.footer-logo {
+   width: 97px;
+   height: 30px;
+   padding-top: 0;
+   padding-left: 3px;
+}
+.footer-nav {
+   height: 30px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+   margin-left: -54px;
+}
+.footer-nav-item {
+   font-size: 14px;
+   margin-right: 90px;
+}
+.footer-icons {
+   width: 84px;
+   height: 30px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: -6px;
+}
+.website {
+   margin-left: 24px;
+   margin-top: 3px;
+   position: relative;
+   z-index: 1;
+}
+.circle2 {
+   top: -23px;
+   left: -41px;
+   position: absolute;
+   z-index: -1;
+}
+.exile {
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   color: #2B3541;
+}
+.footer-icon {
+   width: 27px;
+   height: 27px:
 }
