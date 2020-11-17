@@ -15,8 +15,8 @@ body {
     justify-content: space-between;
     text-align: center;
     margin-top: 48px;
-    width: 1837px;
-    height: 31px;
+    max-width: 1837px;
+    max-height: 31px;
     margin: 0 auto;
     padding-top: 48px;
  }
@@ -63,11 +63,11 @@ body {
    transform: scale(1.114) translate(-2px, -2px);
 }
  .wrapper {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    max-width: 1325px;
-    margin: 0 0 0 388px;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   max-width: 1325px;
+   margin: 0 auto;
  }
 
  main {
@@ -80,6 +80,11 @@ body {
     height: 852px;
     margin-left: 29%;
  }
+ .training {
+    margin: 0 auto;
+    margin-top: 27px;
+ }
+ 
  .training-image {
     width: 100%;
     height: 852px;
@@ -95,6 +100,9 @@ body {
     transform: translate(50%, 50%);
     object-fit: cover;
  }
+ .training {
+    width: 100%;
+ }
 .training-title {
     font-weight: 700;
     font-size: 48px;
@@ -108,8 +116,8 @@ body {
    margin-top: 10px;
 }
 .training-details {
-    width: 640px;
-    height: 852px;
+    max-width: 640px;
+    max-height: 852px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -154,10 +162,14 @@ body {
    transition: 0.3s ease;
 }
 .more-details:hover {
+   outline: none;
    color: #FBF138;
    background-color: #2B3541;
    box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
    cursor: pointer;
+}
+input[type=button] {
+   outline: none;
 }
 .arrow {
     margin-top: 182px;
@@ -165,6 +177,7 @@ body {
 }
 
 #event {
+   margin: 0 auto;
    width: 1143px;
    height: 690px;
    margin-top: 179px;
@@ -189,7 +202,6 @@ body {
    width: 100%;
    height: 100%;
    overflow: hidden;
-   repeat: no-repeat;
 }
 .webinar-caption:hover .share {
    visibility: visible;
@@ -219,6 +231,7 @@ body {
    cursor: pointer;
 }
 .training-schedule {
+   margin: 0 auto;
    max-width: 1143px;
    height: 851px;
    margin-top: 166px;
@@ -442,7 +455,6 @@ body {
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 50% 50%;
-   background-color: ;
  }
  .custom-checkbox:checked+label::before {
    background-color: #2B3541;
@@ -467,6 +479,7 @@ body {
    border-bottom: 1px solid #2B3541;
 }
 .company {
+   margin: 0 auto;
    width: 1142px;
    height: 513px;
    margin-top: 160px;
@@ -616,5 +629,42 @@ body {
 }
 .footer-icon {
    width: 27px;
-   height: 27px:
+   height: 27px;
+}
+@media(max-width: 1679px) {
+   .nav {
+      margin-left: 0;
+  }
+.training-title {
+   padding-top: 119px;
+   margin: 0;
+}
+  .arrow {
+   margin-top: 52px;
+}
+   .container {
+      width: 700px;
+  }
+  .training-image {
+    height: 580px;
+}
+  .training-image img {
+    height: 580px;
+}
+.training {
+   width: 1143px;
+   height: 800px;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   grid-gap: 18px;
+}
+.footer-menu {
+   margin: 0 auto;
+   margin-top: 54px;
+}
+.website {
+   margin-right: 20px;
+}
 }
