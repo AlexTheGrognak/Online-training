@@ -71,14 +71,14 @@ body {
  }
 
  main {
-    max-width: 1325px;
-    max-height: 852px;
+    width: 1325px;
+    height: 852px;
     margin-top: 27px;
  }
  .container {
-    width: 996px;
-    height: 852px;
-    margin-left: 29%;
+   width: 87%;
+   height: 100%;
+   margin-left: 30%;
  }
  .training {
     margin: 0 auto;
@@ -87,13 +87,13 @@ body {
  
  .training-image {
     width: 100%;
-    height: 852px;
+    height: 100%;
     position: relative;
     overflow: hidden;
  }
  .training-image img {
     width: 100%;
-    height: 852px;
+    height: 100%;
     position: absolute;
     left: -50%;
     top: -50%;
@@ -101,7 +101,8 @@ body {
     object-fit: cover;
  }
  .training {
-    width: 100%;
+    width: 1325px;
+    height: 852px;
  }
 .training-title {
     font-weight: 700;
@@ -118,6 +119,7 @@ body {
 .training-details {
     max-width: 640px;
     max-height: 852px;
+    margin-left: 9px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -180,7 +182,7 @@ input[type=button] {
    margin: 0 auto;
    width: 1143px;
    height: 690px;
-   margin-top: 179px;
+   margin-top: 130px;
 }
 .event-title {
    font-weight: 700;
@@ -189,6 +191,7 @@ input[type=button] {
    letter-spacing: 0.02em;
 }
 .webinar {
+   margin: 0 auto;
    margin-top: 40px;
    display: flex;
    justify-content: space-between;
@@ -234,9 +237,9 @@ input[type=button] {
    margin: 0 auto;
    max-width: 1143px;
    height: 851px;
-   margin-top: 166px;
+   margin-top: 165px;
 }
-.shedule-date {
+.schedule-date {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -247,21 +250,20 @@ input[type=button] {
    line-height: 125%;
    color: #2B3541;
    margin-top: 28px;
-   margin-bottom: 39px;
-
+   margin-bottom: 11px;
 }
 .date {
    font-weight: bold;
    font-size: 28px;
    line-height: 125%;
    color: #2B3541;
-   margin-top: -20px;
+   margin-top: 4px;
 }
 .training {
    width: 1143px;
-   height: 800px;
+   height: 852px;
    display: flex;
-   align-items: flex-start;
+   align-items: center;
    flex-direction: column;
    flex-wrap: wrap;
    grid-gap: 18px;
@@ -497,6 +499,7 @@ input[type=button] {
 .company-details {
    display: flex;
    flex-direction: column;
+   margin-left: 8px;
 }
 
 .company-image {
@@ -504,6 +507,7 @@ input[type=button] {
    height: 335px;
    position: relative;
    overflow: hidden;
+   margin-right: -8px;
 }
 .company-image img {
    width: 100%;
@@ -557,6 +561,7 @@ input[type=button] {
    display: grid;
    grid-template-columns: 231px 284px 221px 204px;
    grid-gap: 67px;
+   margin-left: 10px;
 }
 .tool-title {
    font-weight: 700;
@@ -579,7 +584,8 @@ input[type=button] {
    background: #F3F3F3;
 }
 .footer-menu {
-   max-width: 1142px;
+   margin: 0 auto;
+   width: 1142px;
    display: flex;
    justify-content: space-between;
    margin-top: 54px;
@@ -632,39 +638,229 @@ input[type=button] {
    height: 27px;
 }
 @media(max-width: 1679px) {
+   header {
+      max-width: 1000px;
+   }
    .nav {
       margin-left: 0;
   }
+  .wrapper {
+   width: 1000px;
+}
+main {
+   width: 1000px;
+}
+.container {
+   width: 700px;
+   height: 603px;
+}
 .training-title {
-   padding-top: 119px;
-   margin: 0;
+    padding-top: 119px;
+    margin: 0;
 }
   .arrow {
-   margin-top: 52px;
+    margin-top: 52px;
 }
-   .container {
-      width: 700px;
-  }
-  .training-image {
-    height: 580px;
+
+   .training {
+    width: 1000px;
+    height: 800px;
 }
-  .training-image img {
-    height: 580px;
+#event {
+   margin: 0 auto;
+   width: 1000px;
+   height: 690px;
+   margin-top: 130px;
 }
-.training {
-   width: 1143px;
-   height: 800px;
-   display: flex;
-   align-items: flex-start;
-   flex-direction: column;
-   flex-wrap: wrap;
-   grid-gap: 18px;
+.training-schedule {
+   width: 1000px;
+}
+.webinar-caption {
+   width: 300px;
+   height: 481px;
+}
+.caption-01 {
+   width: 300px;
+   height: 250px;
+}
+.caption-02 {
+   width: 300px;
+   height: 433px;
+}
+.caption-03 {
+   width: 300px;
+   height: 402px; 
+}
+.caption-04 {
+   width: 300px;
+   height: 281px;
+}
+.caption-05 {
+   width: 300px;
+   height: 309px;
+}
+.caption-06 {
+   width: 300px;
+   height: 374px;
+}
+.company {
+   width: 1000px;
+}
+.company-info {
+   max-width: 1000px;
+}
+.company-image {
+   width: 500px;
+}
+.company-advantage {
+   grid-gap: 40px;
+   margin-left: 0;
 }
 .footer-menu {
-   margin: 0 auto;
-   margin-top: 54px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+.footer-nav {
+   margin-left: 0px;
 }
 .website {
-   margin-right: 20px;
+    margin-right: 20px;
 }
+}
+
+@media(max-width: 1280px) {
+   header {
+      max-width: 900px;
+  }
+  .wrapper {
+   width: 900px;
+}
+   main {
+      width: 900px;
+   }
+   .container {
+      width: 623px;
+      height: 517px;
+  }
+  .event-title {
+   font-size: 32px;
+  }
+  .webinar {
+   justify-content: space-around;
+}
+   .training-title {
+      font-size: 30px;
+   }
+   .training-details {
+      max-width: 436px;
+      max-height: 520px;
+   }
+   .workout p {
+      font-size: 24px;
+  }
+  .workout2 {
+   margin-left: 0;
+}
+   #event {
+      width: 900px;
+   }
+   .webinar-caption {
+      width: 285px;
+      height: 440px;
+   }
+   .training {
+      width: 900px;
+      grid-gap: 5px;
+  }
+  .schedule-date {
+     padding: 0 10px;
+  }
+  .schedule {
+   font-size: 30px;
+  }
+  .date {
+   font-size: 24px;
+  }
+  
+   .training-schedule {
+      max-width: 900px;
+   }
+   .caption-01 {
+      width: 270px;
+      height: 250px;
+   }
+   .caption-02 {
+      width: 270px;
+      height: 433px;
+   }
+   .caption-02 image {
+      margin-top: 10px;
+   }
+   .caption-03 {
+      width: 270px;
+      height: 402px; 
+   }
+   .caption-04 {
+      width: 270px;
+      height: 281px;
+   }
+   .caption-05 {
+      width: 270px;
+      height: 309px;
+   }
+   .caption-06 {
+      width: 270px;
+      height: 374px;
+   }
+   .training-date {
+      font-size: 16px;
+   }
+   .training-type {
+      font-size: 16px;
+   }
+   .training-type-description {
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .company {
+      width: 900px;
+  }
+  .company-title {
+   font-size: 34px;
+  }
+  .company-message {
+   font-size: 16px;
+  }
+   .company-info {
+      justify-content: space-around;
+  }
+  .company-image {
+   width: 378px;
+}
+.company-advantage {
+   width: 900px;
+   grid-gap: 0px;
+   grid-template-columns: 200px 250px 200px 200px;
+   justify-content: space-around;
+}
+.advatage-tool {
+   margin-left: 0px;
+}
+.tool-title {
+   font-size: 16px;
+}
+.tool-description {
+   font-size: 16px;
+}
+.footer-menu {
+   width: 900px;
+}
+.footer-nav-item {
+   margin-right: 42px;
+}
+}
+@media(max-width: 900px) {
+   
 }
