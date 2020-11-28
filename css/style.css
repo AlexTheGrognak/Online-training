@@ -11,26 +11,43 @@ body {
 }
 
  header {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    position: relative;
     margin-top: 48px;
     max-width: 1837px;
     max-height: 31px;
     margin: 0 auto;
     padding-top: 48px;
  }
+.drop-header {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   background-color: #FFFFFF;
+   transition: 0.1s ease;
+}
 .logo {
     width: 97px;
     height: 30px;
     padding-top: 1px;
     padding-left: 19px;
 }
+#menu {
+   position: relative;
+   transition: 0.3s ease;
+}
+#menu-button {
+   display: none;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
     margin-left: -669px;
+    transition: 0.3s ease;
  }
 .nav-item {
     color: #2B3541;
@@ -39,12 +56,17 @@ body {
     font-size: 18px;
     line-height: 150%;  
     margin-right: 54px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     transition: 0.3s ease;
+    border-bottom: 1px solid transparent;
  }
  .nav-item:hover {
     cursor: pointer;
-    border-bottom: 1px solid #2B3541;;
+    border-bottom: 1px solid #2B3541;
+ }
+ .close-menu {
+    display: none;
+    margin-left: 200px;
  }
  .icons {
     width: 90px;
@@ -52,6 +74,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 3px;
+    transition: 0.2s ease;
  }
  .icon {
     cursor: pointer;
@@ -71,9 +94,10 @@ body {
  }
 
  main {
+    margin: 0 auto;
     width: 1325px;
     height: 852px;
-    margin-top: 27px;
+    margin-top: 70px;
  }
  .container {
    width: 87%;
@@ -194,6 +218,7 @@ input[type=button] {
    margin: 0 auto;
    margin-top: 40px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
 }
 .webinar-caption {
@@ -862,5 +887,111 @@ main {
 }
 }
 @media(max-width: 900px) {
-   
+   #menu {
+      display: none;
+   }
+   #menu-button {
+      display: block;
+   }
+   .hide-nav {
+      display: none;
+      width: 134px;
+      height: 138px; 
+      transition: 0.3s ease;
+   }
+   .nav {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+    }
+    .nav-item {
+       padding-top: 50px;
+    }
+   .show .hide-nav,
+   .show .close-menu,
+   .show #menu-button,
+   .show #menu {
+      display: block;
+    }
+    .showHeader .icons {
+       margin-top: 290px;
+    }
+    .showHeader .drop-header {
+      position: absolute;
+      z-index: 5;
+      height: 331px;
+    }
+    .hide #menu-button {
+      display: none;
+    }
+    .close #menu {
+      display: none;
+    }
+    .close .drop-header {
+       height: 31px;
+    }
+    .close .icons {
+      margin-top: 3px;
+    }
+    .wrapper {
+      width: 590px;
+  }
+    main {
+       width: 590px;
+       height: 1050px;
+    }
+    .container {
+      width: 590px;
+      height: 475px;
+      margin-left: 0;
+      margin-top: 50px;
+  }
+   .training-details {
+      max-width: 590px;
+      position: inherit;
+      padding-left: 100px;
+   } 
+   .arrow {
+      margin-left: 0;
+   }
+   .more-details {
+      margin-left: 0;
+   }
+   #event {
+      width: 590px;
+      height: 970px;
+  }
+  .event-title {
+   margin-left: 100px;
+}
+.webinar {
+   grid-gap: 10px;
+}
+.webinar-caption {
+   width: 270px;
+   height: 425px;
+}
+.schedule-date {
+   justify-content: space-around;
+}
+.training-schedule {
+   max-width: 590px;
+   height: 1140px;
+}
+.training {
+   width: 590px;
+   flex-wrap: nowrap;
+}
+.training-caption {
+   width: 400px;
+}
+.image {
+   padding-top: 10px;
+}
+.training-type {
+   padding-top: 0px;
+}
 }

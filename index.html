@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
+        <div class="drop-header">
         <img class="logo" src="img/logo.png" alt="logo">
-        <ul class="nav">
-            <li class="nav-item">Мероприятия</li>
-            <li class="nav-item">Расписание</li>
-            <li class="nav-item">О компании</li>
-        </ul>
+        <img onclick="dropMenu()" id="menu-button" src="img/icons/menu.svg" alt="menu">
+        <div id="menu">
+            <div class="hide-nav">
+                <img onclick="closeMenu()" class="close-menu" src="img/icons/close.svg" alt="close-menu">
+                <ul class="nav">
+                    <li class="nav-item">Мероприятия</li>
+                    <li class="nav-item">Расписание</li>
+                    <li class="nav-item">О компании</li>
+                </ul>
+            </div>
+        </div>
+        
         <div class="icons">
             <img class="icon" src="img/icons/instagram.svg" alt="Instagram">
             <img class="icon" src="img/icons/facebook.svg" alt="Facebook">
+        </div>
+
         </div>
     </header>
      <div class="wrapper">
@@ -182,6 +192,18 @@
             const el = document.getElementById('event');
             el.scrollIntoView({behavior: "smooth"});
         };
+        function dropMenu() {
+            document.getElementById("header").classList.add("showHeader");
+            document.getElementById("header").classList.add("show");
+            document.getElementById("header").classList.add("hide");
+            document.getElementById("header").classList.remove("close");
+        }
+        function closeMenu() {
+            
+            document.getElementById("menu").classList.remove("show");
+            document.getElementById("header").classList.remove("hide");
+            document.getElementById("header").classList.add("close");
+        }
     </script>
 </body>
 </html>
