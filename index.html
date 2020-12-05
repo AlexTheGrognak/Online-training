@@ -6,9 +6,7 @@
     <title>Online Training</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script rel="stylesheet" src="script/script.js"></script>
 </head>
 <body>
     <header id="header">
@@ -50,23 +48,23 @@
             </div>
          </main>
          <div id="event">
-            <dialog id="pop-up">
-                <img src="img/icons/close.svg" alt="close" id="close" class="pop-up-close">
+            <div id="pop-up" class="pop-up">
+                <img src="img/icons/close.svg" alt="close" onclick="closeDialog()" id="close" class="pop-up-close">
                 <img class="pop-up-circle" src="img/circle.svg" alt="circle">
                 <p class="pop-up-title">Заявка на участие<br>«Марафон выносливости»</p>
                 <p class="pop-up-caption">Заполните все поля, и мы пришлем информацию в ближайшее время</p>
                 <input class="email" id="pop-up-email" type="email" placeholder="Ваш Email">
                 <input class="email" id="pop-up-email" type="tel" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Ваш номер телефона">
                 <input class="submit" type="button" value="Отправить">
-            </dialog>
-             <h2 class="event-title">Ближайшие события</h2>
-             <div class="webinar">
-                 <div class="webinar-caption">
-                    <img src="img/maraphon.png" alt="maraphon">
-                    <input id="show" class="share-360" type="button" value="+">
-                    <input id="show" class="share" type="button" value="участвовать">
+            </div>
+            <h2 class="event-title">Ближайшие события</h2>
+            <div class="webinar">
+                <div class="webinar-caption">
+                   <img src="img/maraphon.png" alt="maraphon">
+                   <input id="show" class="share-360" type="button" value="+">
+                   <input id="show" onclick="showDialog()" class="share" type="button" value="участвовать">
                 </div>
-                 <div class="webinar-caption">
+                <div class="webinar-caption">
                      <img src="img/trainer.png" alt="trainer">
                      <input id="show" class="share-360" type="button" value="+">
                      <input class="share" type="button" value="участвовать">
@@ -203,38 +201,6 @@
             </div>
         </div>
      </div>
-    <script>
-        var dialog = document.querySelector('dialog');
-        document.querySelector('#show').onclick = function() {
-        dialog.show();
-        };
-        document.querySelector('#close').onclick = function() {
-        dialog.close();
-        };
-        function scrollToEvent() {
-            const el = document.getElementById('event');
-            el.scrollIntoView({behavior: "smooth"});
-        };
-        function scrollToSchedule() {
-            const el = document.getElementById('training-schedule');
-            el.scrollIntoView({behavior: "smooth"});
-        };
-        function scrollToCompaniInfo() {
-            const el = document.getElementById('company');
-            el.scrollIntoView({behavior: "smooth"});
-        };
-        function dropMenu() {
-            document.getElementById("header").classList.add("showHeader");
-            document.getElementById("header").classList.add("show");
-            document.getElementById("header").classList.add("hide");
-            document.getElementById("header").classList.remove("close");
-        }
-        function closeMenu() {
-            
-            document.getElementById("menu").classList.remove("show");
-            document.getElementById("header").classList.remove("hide");
-            document.getElementById("header").classList.add("close");
-        }
-    </script>
+
 </body>
 </html>

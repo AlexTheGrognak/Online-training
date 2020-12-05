@@ -10,15 +10,24 @@ body {
     src: url(../font/Montserrat-Regular.ttf);
 }
 
-#pop-up {
+.pop-up {
+   display: none;
    border: none;
    position: absolute;
    z-index: 5;
    width: 600px;
    height: 577px;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   margin: auto;
    background-color: #F3F3F3;
    padding: 0;
    text-align: center;
+}
+.showDialog {
+   display: block;
 }
 .pop-up-close {
    margin-top: 30px;
@@ -271,6 +280,7 @@ input[type=button] {
    width: 1143px;
    height: 690px;
    margin-top: 130px;
+   position: relative;
 }
 .event-title {
    font-weight: 700;
