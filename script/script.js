@@ -1,5 +1,6 @@
 function showDialog() {
     document.getElementById("pop-up").classList.toggle("showDialog");
+    document.getElementById('pop-up-email').focus();
 }
 function closeDialog() {
     document.getElementById("pop-up").classList.remove("showDialog");
