@@ -1,13 +1,13 @@
 body {
-    font-family: 'Montserrat',sans-serif;
-    background-color: #FEFCFE;
-    font-size: 14px;
-    max-width: 1920px;
+   font-family: 'Montserrat',sans-serif;
+   background-color: #FEFCFE;
+   font-size: 14px;
+   max-width: 1920px;
 }
 @font-face {
-    font-family: 'Montserrat';
-    src: url(../font/Montserrat-Bold.ttf);
-    src: url(../font/Montserrat-Regular.ttf);
+   font-family: 'Montserrat';
+   src: url(../font/Montserrat-Bold.ttf);
+   src: url(../font/Montserrat-Regular.ttf);
 }
 
 .pop-up {
@@ -84,12 +84,12 @@ body {
    cursor: pointer;
 }
  header {
-    position: relative;
-    margin-top: 48px;
-    max-width: 1837px;
-    max-height: 31px;
-    margin: 0 auto;
-    padding-top: 48px;
+   position: relative;
+   margin-top: 48px;
+   max-width: 1837px;
+   max-height: 31px;
+   margin: 0 auto;
+   padding-top: 48px;
  }
 .drop-header {
    position: absolute;
@@ -102,10 +102,10 @@ body {
    transition: 0.1s ease;
 }
 .logo {
-    width: 97px;
-    height: 30px;
-    padding-top: 1px;
-    padding-left: 19px;
+   width: 97px;
+   height: 30px;
+   padding-top: 1px;
+   padding-left: 19px;
 }
 #menu {
    position: relative;
@@ -116,44 +116,44 @@ body {
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    margin-left: -669px;
-    transition: 0.3s ease;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+   margin-left: -669px;
+   transition: 0.3s ease;
  }
 .nav-item {
-    color: #2B3541;
-    text-decoration-style: none;
-    list-style-type: none;
-    font-size: 18px;
-    line-height: 150%;  
-    margin-right: 54px;
-    padding-bottom: 5px;
-    transition: 0.3s ease;
-    border-bottom: 1px solid transparent;
+   color: #2B3541;
+   text-decoration-style: none;
+   list-style-type: none;
+   font-size: 18px;
+   line-height: 150%;  
+   margin-right: 54px;
+   padding-bottom: 5px;
+   transition: 0.3s ease;
+   border-bottom: 1px solid transparent;
  }
  .nav-item:hover {
-    cursor: pointer;
-    border-bottom: 1px solid #2B3541;
+   cursor: pointer;
+   border-bottom: 1px solid #2B3541;
  }
  .close-menu {
-    display: none;
-    margin-left: 200px;
+   display: none;
+   margin-left: 200px;
  }
  .icons {
-    width: 90px;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3px;
-    transition: 0.2s ease;
+   width: 90px;
+   height: 30px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3px;
+   transition: 0.2s ease;
  }
  .icon {
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    transition: 0.2s ease;
+   cursor: pointer;
+   width: 30px;
+   height: 30px;
+   transition: 0.2s ease;
  }
 .icon:hover {
    transform: scale(1.114) translate(-2px, -2px);
@@ -167,10 +167,10 @@ body {
  }
 
  main {
-    margin: 0 auto;
-    width: 1325px;
-    height: 852px;
-    margin-top: 70px;
+   margin: 0 auto;
+   width: 1325px;
+   height: 852px;
+   margin-top: 70px;
  }
  .container {
    width: 87%;
@@ -178,69 +178,69 @@ body {
    margin-left: 30%;
  }
  .training {
-    margin: 0 auto;
-    margin-top: 27px;
+   margin: 0 auto;
+   margin-top: 27px;
  }
  
  .training-image {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   overflow: hidden;
  }
  .training-image img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: -50%;
-    top: -50%;
-    transform: translate(50%, 50%);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   left: -50%;
+   top: -50%;
+   transform: translate(50%, 50%);
  }
  .training {
-    width: 1325px;
-    height: 852px;
+   width: 1325px;
+   height: 852px;
  }
 .training-title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 125%;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #2B3541;
-    padding-top: 197px;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 125%;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: #2B3541;
+   padding-top: 197px;
 }
 .training-info {
    margin-top: 10px;
 }
 .training-details {
-    max-width: 640px;
-    max-height: 852px;
-    margin-left: 9px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    z-index: 1;
+   max-width: 640px;
+   max-height: 852px;
+   margin-left: 9px;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   z-index: 1;
 }
 .workout {
    display: flex;
    padding: 0;
 }
 .workout p {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 125%;
-    padding-right: 22px;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 125%;
+   padding-right: 22px;
+   padding-top: 0;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 .workout2 {
-    width: 286px;
-    height: 50px;
-    font-size: 18px;
-    line-height: 150%;
-    margin-top: 21px;
-    margin-left: 93px;
+   width: 286px;
+   height: 50px;
+   font-size: 18px;
+   line-height: 150%;
+   margin-top: 21px;
+   margin-left: 93px;
 }
 
 .more-details {
@@ -270,8 +270,8 @@ input[type=button] {
    outline: none;
 }
 .arrow {
-    margin-top: 182px;
-    margin-left: 92px;
+   margin-top: 182px;
+   margin-left: 92px;
 }
 
 #event {
@@ -817,96 +817,96 @@ input[type=button] {
    }
    .nav {
       margin-left: 0;
-  }
-  .wrapper {
-   width: 1000px;
-}
-main {
-   width: 1000px;
-   height: 600px;
-}
-.container {
-   width: 700px;
-   height: 603px;
-}
-.training-title {
-    padding-top: 119px;
-    margin: 0;
-}
-  .arrow {
-    margin-top: 52px;
-}
+   }
+   .wrapper {
+      width: 1000px;
+   }
+   main {
+      width: 1000px;
+      height: 600px;
+   }
+   .container {
+      width: 700px;
+      height: 603px;
+   }
+   .training-title {
+      padding-top: 119px;
+      margin: 0;
+   }
+   .arrow {
+      margin-top: 52px;
+   }
 
-   .training {
-    width: 1000px;
-    height: 800px;
-}
-#event {
-   margin: 0 auto;
-   width: 1000px;
-   height: 690px;
-   margin-top: 130px;
-}
-.training-schedule {
-   width: 1000px;
-   margin-top: 0;
-}
-.webinar-caption {
-   width: 300px;
-   height: 481px;
-}
-.caption-01 {
-   width: 300px;
-   height: 250px;
-}
-.caption-02 {
-   width: 300px;
-   height: 433px;
-}
-.caption-03 {
-   width: 300px;
-   height: 402px; 
-}
-.caption-04 {
-   width: 300px;
-   height: 281px;
-}
-.caption-05 {
-   width: 300px;
-   height: 309px;
-}
-.caption-06 {
-   width: 300px;
-   height: 374px;
-}
-.company {
-   width: 1000px;
-}
-.company-info {
-   max-width: 1000px;
-}
-.company-image {
-   width: 500px;
-}
-.company-advantage {
-   grid-gap: 40px;
-   margin-left: 0;
-}
-.footer-menu {
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 54px;
-}
-.footer-nav {
-   margin-left: 0px;
-}
-.footer-media {
-   display: flex;
-   justify-content: space-between;
-}
-.website {
-    margin-right: 20px;
-}
+      .training {
+      width: 1000px;
+      height: 800px;
+   }
+   #event {
+      margin: 0 auto;
+      width: 1000px;
+      height: 690px;
+      margin-top: 130px;
+   }
+   .training-schedule {
+      width: 1000px;
+      margin-top: 0;
+   }
+   .webinar-caption {
+      width: 300px;
+      height: 481px;
+   }
+   .caption-01 {
+      width: 300px;
+      height: 250px;
+   }
+   .caption-02 {
+      width: 300px;
+      height: 433px;
+   }
+   .caption-03 {
+      width: 300px;
+      height: 402px; 
+   }
+   .caption-04 {
+      width: 300px;
+      height: 281px;
+   }
+   .caption-05 {
+      width: 300px;
+      height: 309px;
+   }
+   .caption-06 {
+      width: 300px;
+      height: 374px;
+   }
+   .company {
+      width: 1000px;
+   }
+   .company-info {
+      max-width: 1000px;
+   }
+   .company-image {
+      width: 500px;
+   }
+   .company-advantage {
+      grid-gap: 40px;
+      margin-left: 0;
+   }
+   .footer-menu {
+      width: 1000px;
+      margin: 0 auto;
+      margin-top: 54px;
+   }
+   .footer-nav {
+      margin-left: 0px;
+   }
+   .footer-media {
+      display: flex;
+      justify-content: space-between;
+   }
+   .website {
+      margin-right: 20px;
+   }
 }
 
 @media(max-width: 1280px) {
@@ -914,21 +914,21 @@ main {
       max-width: 900px;
   }
   .wrapper {
-   width: 900px;
-}
+      width: 900px;
+   }
    main {
       width: 900px;
    }
    .container {
       width: 623px;
       height: 517px;
-  }
-  .event-title {
-   font-size: 32px;
-  }
-  .webinar {
-   justify-content: space-around;
-}
+   }
+   .event-title {
+      font-size: 32px;
+   }
+   .webinar {
+      justify-content: space-around;
+   }
    .training-title {
       font-size: 30px;
    }
@@ -938,10 +938,10 @@ main {
    }
    .workout p {
       font-size: 24px;
-  }
-  .workout2 {
-   margin-left: 0;
-}
+   }
+   .workout2 {
+      margin-left: 0;
+   }
    #event {
       width: 900px;
    }
@@ -952,16 +952,16 @@ main {
    .training {
       width: 900px;
       grid-gap: 5px;
-  }
-  .schedule-date {
+   }
+   .schedule-date {
      padding: 0 10px;
-  }
-  .schedule {
-   font-size: 30px;
-  }
-  .date {
-   font-size: 24px;
-  }
+   }
+   .schedule {
+      font-size: 30px;
+   }
+   .date {
+      font-size: 24px;
+   }
   
    .training-schedule {
       max-width: 900px;
@@ -1006,40 +1006,40 @@ main {
    }
    .company {
       width: 900px;
-  }
-  .company-title {
-   font-size: 34px;
-  }
-  .company-message {
-   font-size: 16px;
-  }
+   }
+   .company-title {
+      font-size: 34px;
+   }
+   .company-message {
+      font-size: 16px;
+   }
    .company-info {
       justify-content: space-around;
-  }
-  .company-image {
-   width: 378px;
-}
-.company-advantage {
-   width: 900px;
-   grid-gap: 0px;
-   grid-template-columns: 200px 250px 200px 200px;
-   justify-content: space-around;
-}
-.advatage-tool {
-   margin-left: 0px;
-}
-.tool-title {
-   font-size: 16px;
-}
-.tool-description {
-   font-size: 16px;
-}
-.footer-menu {
-   width: 900px;
-}
-.footer-nav-item {
-   margin-right: 42px;
-}
+   }
+   .company-image {
+      width: 378px;
+   }
+   .company-advantage {
+      width: 900px;
+      grid-gap: 0px;
+      grid-template-columns: 200px 250px 200px 200px;
+      justify-content: space-around;
+   }
+   .advatage-tool {
+      margin-left: 0px;
+   }
+   .tool-title {
+      font-size: 16px;
+   }
+   .tool-description {
+      font-size: 16px;
+   }
+   .footer-menu {
+      width: 900px;
+   }
+   .footer-nav-item {
+      margin-right: 42px;
+   }
 }
 @media(max-width: 900px) {
    #menu {
@@ -1093,7 +1093,7 @@ main {
     }
     .wrapper {
       width: 590px;
-  }
+   }
     main {
        width: 590px;
        height: 1050px;
@@ -1103,7 +1103,7 @@ main {
       height: 475px;
       margin-left: 0;
       margin-top: 50px;
-  }
+   }
    .training-details {
       max-width: 590px;
       position: inherit;
@@ -1119,374 +1119,373 @@ main {
       width: 590px;
       height: 970px;
   }
-  .event-title {
-   margin-left: 100px;
-}
-.webinar {
-   grid-gap: 10px;
-}
-.webinar-caption {
-   width: 270px;
-   height: 425px;
-}
-.schedule-date {
-   justify-content: space-around;
-}
-.training-schedule {
-   max-width: 590px;
-   height: 1140px;
-}
-.training {
+   .event-title {
+      margin-left: 100px;
+   }  
+   .webinar {
+      grid-gap: 10px;
+   }
+   .webinar-caption {
+      width: 270px;
+      height: 425px;
+   }
+   .schedule-date {
+      justify-content: space-around;
+   }
+   .training-schedule {
+      max-width: 590px;
+      height: 1140px;
+   }
+   .training {
+      width: 590px;
+      flex-wrap: nowrap;
+   }
+   .training-caption {
+      width: 400px;
+   }
+   .image {
+      padding-top: 10px;
+   }
+   .training-type {
+      padding-top: 0px;
+   }
+   .distribution-title {
+      font-size: 32px;
+   }
+   .circle {
+      top: 0px;
+      left: 6px;
+   }
+   .email {
+      width: 315px;
+      height: 56px;
+   }
+   .email-subscribe {
+      width: 195px;
+      height: 56px;
+      font-size: 14px;
+   }
+   .company {
+      width: 590px;
+   }
+   .company-subscribe {
+      width: 225px;
+      height: 56px;
+      font-size: 14px;
+   }
+   .company-advantage {
+      width: 590px;
+      grid-template: 160px 250px/ 200px 200px;
+   }
+   .footer-menu {
+   flex-direction: column;
    width: 590px;
-   flex-wrap: nowrap;
-}
-.training-caption {
-   width: 400px;
-}
-.image {
-   padding-top: 10px;
-}
-.training-type {
-   padding-top: 0px;
-}
-.distribution-title {
-   font-size: 32px;
-}
-.circle {
-   top: 0px;
-   left: 6px;
-}
-.email {
-   width: 315px;
-   height: 56px;
-}
-.email-subscribe {
-   width: 195px;
-   height: 56px;
-   font-size: 14px;
-}
-.company {
-   width: 590px;
-}
-.company-subscribe {
-   width: 225px;
-   height: 56px;
-   font-size: 14px;
-}
-.company-advantage {
-   width: 590px;
-   grid-template: 160px 250px/ 200px 200px;
-}
-.footer-menu {
-  flex-direction: column;
-  width: 590px;
-}
-.footer-logo {
-   margin: 0 auto;
-   padding-left: 0;
-}
-.footer-nav {
-   width: 500px;
-   margin: 0 auto;
-   margin-top: 51px;
-}
-.footer-nav > li {
-  padding-top: 0; 
-}
-.website {
-   width: 300px;
-}
-.footer-media {
-   margin: 0 auto;
-   margin-top: 20px;
-   width: 400px;
-   height: 40px;
-   display: flex;
-   justify-content: space-between;
-}
-.footer-icons {
-   margin-top: 0; 
-}
+   }
+   .footer-logo {
+      margin: 0 auto;
+      padding-left: 0;
+   }
+   .footer-nav {
+      width: 500px;
+      margin: 0 auto;
+      margin-top: 51px;
+   }
+   .footer-nav > li {
+   padding-top: 0; 
+   }
+   .website {
+      width: 300px;
+   }
+   .footer-media {
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 400px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+   }
+   .footer-icons {
+      margin-top: 0; 
+   }
 }
 
 @media(max-width: 600px) {
    header {
       max-width: 600px;
-  }
-  .logo {
-   width: 78px;
-   height: 24px;
-}
-.wrapper {
-   width: 340px;
-}
-#menu-button {
-   width: 29px;
-   height: 22px;
-}
-.icons {
-   width: 72px;
-   height: 26px;
-}
-.icon {
-   width: 26px;
-   height: 26px;
-}
-.training-details {
-   padding-left: 0;
-}
-.training-title {
-   font-size: 26px;
-   padding-top: 17px;
-}
-.training-info {
-   margin-top: 45px;
-}
-.workout p {
-   font-size: 26px;
-}
-.workout2 {
-   font-size: 16px;
-   margin-top: 18px;
-}
-main {
-   width: 360px;
-   height: 607px;
-}
-.more-details {
-   width: 340px;
-   height: 65px;
-}
-.arrow {
-   display: none;
-}
-.container {
-   width: 340px;
-   height: 310px;
-}
-#event {
-   width: 340px;
-   height: 618px;
-}
-.training {
-   margin-top: 9px;
-}
-.training-schedule {
-   height: 881px;
-}
-.training-caption {
-   height: 114px;
-}
-.training-caption:hover {
-   height: 204px;
-}
-.training-type-description {
-   font-size: 12px;
-}
-.training-type-description {
-   width: 233px;
-   margin-left: 78px;
-   margin-top: -140px;
-}
-.image {
-   padding-top: 55px;
-}
-.training-type {
-   margin-left: 50px;
-   margin-top: -26px;
-}
-.body {
-   width: 39px;
-   height: 39px;
-}
-.jump {
-   width: 34px;
-   height: 53px;
-}
-.bottle {
-   width: 23px;
-   height: 45px;
-}
-.heart {
-   width: 39px;
-   height: 37px;
-}
-.dumbbell {
-   width: 46px;
-   height: 25px;
-}
-.weight {
-   width: 35px;
-   height: 40px;
-}
-.webinar {
-   margin-top: 20px;
-}
-.event-title {
-   font-size: 26px;
-   margin-left: 0;
-   margin-bottom: 10px;
-}
-.webinar-caption {
-   width: 165px;
-   height: 310px;
-}
-.share {
-   display: none;
-}
-.share-360 {
-   display: block;
-}
-.webinar .caption-last {
-   width: 340px;
-   height: 336px;
-}
-.webinar-date {
-   font-size: 12px;
-   margin-top: 20px;
-   margin-left: 20px;
-}
-.webinar-title {
-   font-size: 16px;
-   margin-top: 48px;
-   margin-left: 20px;
-}
-.webinar-signature {
-   font-size: 12px;
-   width: 87px;
-   height: 30px;  
-   left: 0;
-   
-}
-.webinar-signature p {
-   margin: 6px auto; 
-}
-.training-schedule {
-   margin-top: 165px;
-   max-width: 340px;
-}
-.schedule {
-   font-size: 26px;
-}
-.date {
-   font-size: 16px;
-}
-.training {
-   width: 340px;
-}
-.training-caption {
-   width: 330px;
-}
-.distribution {
-   height: 416px;
-}
-.distribution-title {
-   font-size: 26px;
-   margin-top: 57px;
-   margin-bottom: 51px;
-}
-.distribution-items {
-   max-width: 340px;
-   max-height: 220px;
-   margin-top: 0;
-}
-.email {
-   width: 340px;
-   height: 65px;
-}
-.email-subscribe {
-  position: absolute;
-  z-index: 2;
-  top: 340px;
-  left: 40px;
-}
-.company {
-   width: 340px;
-   height: 960px;
-   margin-top: 78px;
-}
-.company-title {
-   font-size: 26px;
-}
-.company-message {
-   margin-top: 18px;
-}
-.company-info {
-   width: 100%;
-   height: 206px;
-   position: relative;
-}
-.company-image {
-   width: 340px;
-   height: 207px;
+   }
+   .logo {
+      width: 78px;
+      height: 24px;
+   }
+   .wrapper {
+      width: 340px;
+   }
+   #menu-button {
+      width: 29px;
+      height: 22px;
+   }
+   .icons {
+      width: 72px;
+      height: 26px;
+   }
+   .icon {
+      width: 26px;
+      height: 26px;
+   }
+   .training-details {
+      padding-left: 0;
+   }
+   .training-title {
+      font-size: 26px;
+      padding-top: 17px;
+   }
+   .training-info {
+      margin-top: 45px;
+   }
+   .workout p {
+      font-size: 26px;
+   }
+   .workout2 {
+      font-size: 16px;
+      margin-top: 18px;
+   }
+   main {
+      width: 360px;
+      height: 607px;
+   }
+   .more-details {
+      width: 340px;
+      height: 65px;
+   }
+   .arrow {
+      display: none;
+   }
+   .container {
+      width: 340px;
+      height: 310px;
+   }
+   #event {
+      width: 340px;
+      height: 618px;
+   }
+   .training {
+      margin-top: 9px;
+   }
+   .training-schedule {
+      height: 881px;
+   }
+   .training-caption {
+      height: 114px;
+   }
+   .training-caption:hover {
+      height: 204px;
+   }
+   .training-type-description {
+      font-size: 12px;
+   }
+   .training-type-description {
+      width: 233px;
+      margin-left: 78px;
+      margin-top: -140px;
+   }
+   .image {
+      padding-top: 55px;
+   }
+   .training-type {
+      margin-left: 50px;
+      margin-top: -26px;
+   }
+   .body {
+      width: 39px;
+      height: 39px;
+   }
+   .jump {
+      width: 34px;
+      height: 53px;
+   }
+   .bottle {
+      width: 23px;
+      height: 45px;
+   }
+   .heart {
+      width: 39px;
+      height: 37px;
+   }
+   .dumbbell {
+      width: 46px;
+      height: 25px;
+   }
+   .weight {
+      width: 35px;
+      height: 40px;
+   }
+   .webinar {
+      margin-top: 20px;
+   }
+   .event-title {
+      font-size: 26px;
+      margin-left: 0;
+      margin-bottom: 10px;
+   }
+   .webinar-caption {
+      width: 165px;
+      height: 310px;
+   }
+   .share {
+      display: none;
+   }
+   .share-360 {
+      display: block;
+   }
+   .webinar .caption-last {
+      width: 340px;
+      height: 336px;
+   }
+   .webinar-date {
+      font-size: 12px;
+      margin-top: 20px;
+      margin-left: 20px;
+   }
+   .webinar-title {
+      font-size: 16px;
+      margin-top: 48px;
+      margin-left: 20px;
+   }
+   .webinar-signature {
+      font-size: 12px;
+      width: 87px;
+      height: 30px;  
+      left: 0;
+   }
+   .webinar-signature p {
+      margin: 6px auto; 
+   }
+   .training-schedule {
+      margin-top: 165px;
+      max-width: 340px;
+   }
+   .schedule {
+      font-size: 26px;
+   }
+   .date {
+      font-size: 16px;
+   }
+   .training {
+      width: 340px;
+   }
+   .training-caption {
+      width: 330px;
+   }
+   .distribution {
+      height: 416px;
+   }
+   .distribution-title {
+      font-size: 26px;
+      margin-top: 57px;
+      margin-bottom: 51px;
+   }
+   .distribution-items {
+      max-width: 340px;
+      max-height: 220px;
+      margin-top: 0;
+   }
+   .email {
+      width: 340px;
+      height: 65px;
+   }
+   .email-subscribe {
    position: absolute;
-   z-index: 3;
-   bottom: -805px;
-}
-.company-subscribe {
-   width: 359px;
-   height: 65px;
-   font-size: 14px;
-   position: absolute;
-   z-index: 3;
-   bottom: -555px;
-}
-.company-details {
-   height: 300px;
-}
-.company-advantage {
-   width: 340px;
-   display: flex;
-   flex-direction: column;
-   margin-top: 170px;
-   margin-left: 10px;
-}
-.advatage-tool {
-   width: 200px;
-}
-.footer {
-   height: 222px;
-   margin-top: 77px;
-}
-.footer-menu {
-   width: 340px;
-}
-.footer-nav {
-   width: 330px;
-   padding: 0;
-   margin-top: 40px;
-}
-.footer-nav-item {
-   font-size: 12px;
-   margin-right: 44px;
-}
-.footer-nav-item:last-child {
-   margin-right: 0;
-}
-.footer-media {
-   margin-top: 9px;
-   width: 340px;
-}
-#pop-up {
-   width: 340px;
-   height: 505px;
-}
-.pop-up-title {
-   font-size: 16px;
-}
-.pop-up-caption {
-   font-size: 16px;
-}
-#pop-up-email {
-   width: 300px;
-   height: 65px;
-   font-size: 18px;
-}
-.submit {
-   width: 340px;
-   height: 65px;
-}
-.email {
-   margin-left: 0;
-}
+   z-index: 2;
+   top: 340px;
+   left: 40px;
+   }
+   .company {
+      width: 340px;
+      height: 960px;
+      margin-top: 78px;
+   }
+   .company-title {
+      font-size: 26px;
+   }
+   .company-message {
+      margin-top: 18px;
+   }
+   .company-info {
+      width: 100%;
+      height: 206px;
+      position: relative;
+   }
+   .company-image {
+      width: 340px;
+      height: 207px;
+      position: absolute;
+      z-index: 3;
+      bottom: -805px;
+   }
+   .company-subscribe {
+      width: 359px;
+      height: 65px;
+      font-size: 14px;
+      position: absolute;
+      z-index: 3;
+      bottom: -555px;
+   }
+   .company-details {
+      height: 300px;
+   }
+   .company-advantage {
+      width: 340px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 170px;
+      margin-left: 10px;
+   }
+   .advatage-tool {
+      width: 200px;
+   }
+   .footer {
+      height: 222px;
+      margin-top: 77px;
+   }
+   .footer-menu {
+      width: 340px;
+   }
+   .footer-nav {
+      width: 330px;
+      padding: 0;
+      margin-top: 40px;
+   }
+   .footer-nav-item {
+      font-size: 12px;
+      margin-right: 44px;
+   }
+   .footer-nav-item:last-child {
+      margin-right: 0;
+   }
+   .footer-media {
+      margin-top: 9px;
+      width: 340px;
+   }
+   #pop-up {
+      width: 340px;
+      height: 505px;
+   }
+   .pop-up-title {
+      font-size: 16px;
+   }
+   .pop-up-caption {
+      font-size: 16px;
+   }
+   #pop-up-email {
+      width: 300px;
+      height: 65px;
+      font-size: 18px;
+   }
+   .submit {
+      width: 340px;
+      height: 65px;
+   }
+   .email {
+      margin-left: 0;
+   }
 }
