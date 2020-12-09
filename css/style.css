@@ -98,7 +98,7 @@ body {
    display: flex;
    justify-content: space-between;
    text-align: center;
-   background-color: #FFFFFF;
+   background: #FEFCFE;
    transition: 0.1s ease;
 }
 .logo {
@@ -1216,9 +1216,13 @@ input[type=button] {
    .logo {
       width: 78px;
       height: 24px;
+      padding-left: 5px;
+      padding-right: 5px;
    }
    .wrapper {
-      width: 340px;
+      width: 360px;
+      padding-left: 5px;
+      padding-right: 5px;
    }
    #menu-button {
       width: 29px;
@@ -1234,12 +1238,16 @@ input[type=button] {
    }
    .training-details {
       padding-left: 0;
+      margin-left: 0;
    }
    .training-title {
-      font-size: 26px;
+      font-size: 25px;
       padding-top: 17px;
    }
    .training-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 45px;
    }
    .workout p {
