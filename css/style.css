@@ -951,7 +951,7 @@ input[type=button] {
    }
    .training {
       width: 900px;
-      grid-gap: 5px;
+      gap: 5px;
    }
    .schedule-date {
      padding: 0 10px;
@@ -1123,7 +1123,7 @@ input[type=button] {
       margin-left: 100px;
    }  
    .webinar {
-      grid-gap: 10px;
+      gap: 10px;
    }
    .webinar-caption {
       width: 270px;
@@ -1264,6 +1264,8 @@ input[type=button] {
    .more-details {
       width: 340px;
       height: 65px;
+      margin-left: 0;
+      padding-left: 0;
    }
    .arrow {
       display: none;
@@ -1408,7 +1410,7 @@ input[type=button] {
    left: 40px;
    }
    .company {
-      width: 340px;
+      max-width: 360px;
       height: 960px;
       margin-top: 78px;
    }
@@ -1437,6 +1439,7 @@ input[type=button] {
       position: absolute;
       z-index: 3;
       bottom: -555px;
+      padding-left: 0;
    }
    .company-details {
       height: 300px;
@@ -1495,5 +1498,8 @@ input[type=button] {
    }
    .email {
       margin-left: 0;
+   }
+   .exile {
+      font-size: 14px;
    }
 }
